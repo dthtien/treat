@@ -7,6 +7,8 @@ gem 'schiphol'
 gem 'yomu'
 gem 'ruby-readability'
 gem 'nokogiri'
+gem 'rubyzip', '>= 1.0.0' # will load new rubyzip version
+gem 'zip-zip' # will load compatibility for old rubyzip API.
 
 group :test do
   gem 'rspec'
